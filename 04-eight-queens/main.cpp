@@ -181,8 +181,8 @@ int main() {
 
 	init_board(b);
 
-	brute_force(b, 8);
-	// pruning(b, 8);
+	//brute_force(b, 8);
+	pruning(b, 8);
 
 	return 0;
 }
